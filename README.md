@@ -1,5 +1,5 @@
 # NuWSL
-Another minor fork of localGPT for WSL2 Windows installation and Nvidia GPU with minimalistic command line interface.
+Another minor fork of localGPT FOR WSL2 Windows installation and Nvidia GPU with minimalistic command line interface.
 
 ## Features
 
