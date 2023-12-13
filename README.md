@@ -1,5 +1,5 @@
 # NuWSL
-Another minor fork of localGPT for WSL2 Windows installation with minimalistic command line interface.
+Another minor fork of localGPT for WSL2 Windows installation and Nvidia GPU with minimalistic command line interface.
 
 ## Features
 
@@ -8,6 +8,7 @@ Another minor fork of localGPT for WSL2 Windows installation with minimalistic c
 3. Simple logging of ingestion start and finish time.
 4. Option to run the chat and saving the chat history (Q&A pairs) both into csv and txt files (localGPT only save into csv).
 5. A bit of colored texts for easy reading.
+6. Displaying time taken for generating response.
 
 ![Alt text](https://github.com/hakemz91/NuWSL/blob/main/01_im.png)
 
@@ -82,9 +83,13 @@ After every ingestion for both without and with auto shutdown system, an Ingesti
 
 Each time you run the ingestion, a list of ingested file names are logged into file_done_ingested.log file. This is useful if you forgot whether you ingested certain files already or not. However, again, note that over time, the list can be so huge like maybe thousands, that it will be slow to open the file. So you can delete that file occasionally and it will be rebuilded next time you ingest files.
 
-## How to reset the vector database
+## How to Reset the Vector Database
 
 Just delete the DB folder and reingesting back using option 4 or 5.
+
+## How to Change Model
+
+The default model is the best model already for retrieving information. However if you want to change, just replace the model id in constants.py with the one you get from TheBloke ( https://huggingface.co/TheBloke ) but must be 4 bit quantized model and GPTQ type model. I do not support other type of format.
 
 ## Forked from awesome original LocalGPT
 https://github.com/PromtEngineer/localGPT
