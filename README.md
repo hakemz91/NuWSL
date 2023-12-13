@@ -9,9 +9,11 @@ Another minor fork of localGPT for WSL2 Windows installation with minimalistic c
 4. Option to run the chat and saving the chat history (Q&A pairs) both into csv and txt files (localGPT only save into csv).
 5. A bit of colored texts for easy reading.
 
-![Alt text](https://github.com/hakemz91/WSLRAG/blob/main/im_1.png)
+![Alt text](https://github.com/hakemz91/NuWSL/blob/main/01_im.png)
 
-![Alt text](https://github.com/hakemz91/WSLRAG/blob/main/im_2x.png)
+![Alt text](https://github.com/hakemz91/NuWSL/blob/main/02_im.png)
+
+![Alt text](https://github.com/hakemz91/NuWSL/blob/main/03_im.png)
 
 ## How to Install
 
