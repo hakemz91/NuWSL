@@ -89,7 +89,7 @@ Just delete the DB folder and reingesting back using option 4 or 5.
 
 ## How to Change Model
 
-The default model is the best model already for retrieving information. However if you want to change, just replace the model id in constants.py with the one you get from TheBloke ( https://huggingface.co/TheBloke ) but must be 4 bit quantized model and GPTQ type model. I do not support other type of format.
+The default model is the best model already for retrieving information. However if you want to change, just replace the model id in constants.py with the one you get from TheBloke ( https://huggingface.co/TheBloke ) but must be 4 bit quantized, GPTQ type, and Mistral based model. I do not support other type of model format.
 
 ## Forked from awesome original LocalGPT
 https://github.com/PromtEngineer/localGPT
