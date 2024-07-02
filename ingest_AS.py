@@ -174,7 +174,7 @@ def main(device_type):
     # Batch insert documents
     batch_insert_documents(texts, embeddings)
     
-    # Indicate completion
+    # Need to create this .txt to use in another script
     with open("ingest_complete.txt", "w") as f:
         f.write("Ingest process completed")
 
